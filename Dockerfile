@@ -2,9 +2,9 @@ FROM centos
 
 RUN yum install python36 -y
 
-pip install joblib -y
+RUN pip3 install joblib -y
 
-pip install scikit-learn -y
+RUN pip3 install scikit-learn -y
 
 COPY marks.pk1 /
 
