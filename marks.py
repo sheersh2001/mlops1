@@ -1,3 +1,3 @@
 import joblib
 model=joblib.load('marks.pk1')
-model.predict([[6]])
+print(model.predict([[6]]))
